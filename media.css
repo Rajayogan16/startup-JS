@@ -1,0 +1,267 @@
+@media only screen and (max-width:1000px)
+{
+ 
+ .carousel-caption1
+ {
+    display: none;
+ }
+
+ .about-container{
+    height: fit-content;
+ }
+
+ .team-card img{
+    max-width: 100%;
+ }
+
+ .blog-card img{
+    max-width: 100%;
+ }
+}
+
+@media only screen and (max-width:900px)
+{
+   
+
+
+ .about-container{
+    height: fit-content;
+ }
+
+ .team-card img{
+    max-width: 100%;
+ }
+
+ .blog-card img{
+    max-width: 100%;
+ }
+}
+
+/*media queries*/
+@media only screen and (max-width:600px)
+{
+    body{
+        font-size: 52.5%;
+    
+    }
+    #icon{  
+        display: inline;
+        position: absolute;
+        border: 1px solid var(--secondary-color);
+        top: 100%;
+        right: 0%;
+        text-align: center;
+        background-color: var(--primary-color);
+        visibility: hidden;
+        padding: 2%;
+        width: 100%;
+    }
+
+    .dropdown-menu
+    {
+        right: 40%;
+        top: 90%;
+    }
+
+
+    .nav > a{
+        display: block;
+        font-size: x-large;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    .container-logo{
+        width: fit-content;
+        flex-wrap: wrap;
+        margin-top: 0%;
+    }
+    
+
+    .about-container{
+        flex-wrap: wrap;
+        text-align: center;
+        height: fit-content;
+    }
+
+    .about{
+      margin-bottom: 1%;
+    }
+
+    .about-list{
+        margin: auto;
+        width: auto;
+    }
+
+    .about > .animation{
+      margin: 2% auto;   
+    }
+
+    .portfolio-container{
+        flex-wrap: wrap;
+        height: fit-content;
+        text-align: center;
+    
+    }
+
+    .card{
+        margin: 2%;
+    }
+    
+    .folio-image{
+        max-width: 100%;
+        margin: auto;
+    }
+
+
+    .service-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .price-container{
+        flex-wrap: wrap;
+    }
+    
+    .price-card{
+        margin: 2%;
+        text-align: center;
+        height: fit-content;
+        padding: 5%;
+    }
+
+    
+    .quote-container{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .quote > .animation{
+        margin: 2% auto; 
+    }
+
+    .quote-content{
+        width: 100%;
+    }
+
+    .quote-box{
+        line-height: 7;
+    }
+
+    .quote-box input,select{
+        width: 100%;
+    }
+
+    .quote{
+        line-height: normal;
+    }
+
+    .quote-box textarea{
+        width: 100%;
+    }
+
+   
+
+    .team-container{
+        flex-wrap: wrap;
+    }
+
+    .team-card{
+        margin: 2%;
+    }
+
+    .blog-container{
+        flex-wrap: wrap;
+    }
+
+    .blog-card{
+        margin: 2%;
+    }
+
+    .vendor{
+        flex-wrap: wrap;
+    }
+
+    .foot-container{
+        
+        flex-direction: column;
+    }
+
+    .card-header{
+        font-size: large;
+        justify-content: center;
+    }
+
+    .foot-card > .animation{
+        margin: auto;
+    }
+
+    .foot-body{
+        text-align: center;
+    }
+
+    .foot-body ul li{
+        text-align: center;
+    }
+
+    .footer{
+        justify-content: center;
+    }
+
+    .foot-card1{
+        align-self: center;
+    
+    }
+
+   
+}
+
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+    body{
+        font-size: 50%;
+    }
+    
+    .dropdown-menu
+    {
+        right: 30%;
+    }
+   
+    .folio-image img{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .team-card{
+        max-width: 100%;
+    }
+
+    .team-card img{
+        max-width: 100%;
+        width: auto;
+    }
+
+    .blog-card{
+        max-width: 100%;
+    }
+
+    .blog-card img{
+        max-width: 100%;
+    }
+
+    .foot-card1{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width:412px) {
+   
+
+    .price-card {
+        
+        padding: 5%;
+    }
+
+    
+}
